@@ -1,0 +1,35 @@
+.menu {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  .index {
+    width: 50%;
+    display: inline-block;
+    .main-header-text {
+      font-size: 36px;
+      color: #7f4024;
+      font-weight: 600;
+    }
+  }
+  .about {
+    width: 30%;
+    display: inline-block;
+  }
+  .header-text{
+    font-size: 34px;
+    color: #000;
+  }
+}
+.body-wrp {
+  padding: 10px 30px 0px 30px;
+  .text-carosal {
+    text-align: center;
+  }
+  .primary-text {
+    font-size: 25px;
+  }
+}

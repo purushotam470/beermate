@@ -1,5 +1,19 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<nav class="navbar navbar-transparent addepar-navbar" role="navigation">
+  <div class="menu">
+    <div class="index">
+      {{#link-to 'index'}}
+        <span class="main-header-text">Beermate</span>
+      {{/link-to}}
+    </div>
+    <div class="about">
+      {{#link-to 'about'}}
+      <span class="header-text">About</span>
+      {{/link-to}}
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="body-wrp">
+    {{outlet}}
+</div>
+</div>
